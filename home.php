@@ -5,7 +5,7 @@
  ?>
 <html>
 <head>
-	<title>Home Page</title>
+	<title>Welcom</title>
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body style="background-color:black">
