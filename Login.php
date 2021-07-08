@@ -37,6 +37,7 @@ require 'DBconfig/config.php';
 					$qurey_run = mysqli_query($con,$query);
 					if (mysqli_num_rows($qurey_run)>0)
 					 {
+					 	echo '<script type ="text/javascript"> alert("Success!") </script>';
 						$_SESSION['username']=$username;
 						header('location:home.php');
 
